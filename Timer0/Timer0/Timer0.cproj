@@ -129,14 +129,6 @@
     <Compile Include="port_handler.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="TWI_Master.h">
-      <SubType>compile</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TWI_Master.cpp">
-      <SubType>compile</SubType>
-    </None>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

@@ -1,10 +1,7 @@
 
 
 #include <avr/io.h>
-#include "port_handler.h"
-#include "port_handler.c"
-#define PWM_PHASE_CORRECT 1<<WGM00
-#define CTC 1<<WGM01
+
 int main(void)
 {
     /* Replace with your application code */
